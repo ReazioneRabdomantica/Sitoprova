@@ -1,0 +1,77 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+@font-face{
+    src: url(/fonts/BlackletterShadow-6YAA.ttf);
+    font-family: blackletter;
+}
+
+body {
+    background:blue;
+    background-image: url("/risorse/sfondo\ drainy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 320vh;
+    height: 320vh;
+    margin: 0px;
+
+}
+
+.giphy-embed{
+    position: fixed;
+    top: 30vh;
+    right: 30%;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
+}
+p{
+    margin: 0;
+    padding: 0;
+
+}
+.text1{
+    z-index: -1;
+    position:fixed;
+    top:83vh;
+    line-height: 0;
+    width:47vw;
+    height:fit-content;
+    font-family:'Space-Grotesk', sans-serif ;
+    font-size: 22vw;
+    color:red;
+
+}
+
+.text2{
+    z-index: 1;
+    font-family: blackletter;
+    line-height:1;
+    margin-top:20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-left: 53vw;
+    font-size: 17vw;
+    color:black;
+}
+
+.text3{
+    font-family:'Space-Grotesk', sans-serif ;
+    font-weight: 100;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin-right:47vw;
+    margin-top:30vh;
+    font-size:18px;
+    color:whitesmoke;
+}
+canvas{
+    z-index:0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
